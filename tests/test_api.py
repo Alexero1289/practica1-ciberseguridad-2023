@@ -1,4 +1,4 @@
-from app import get_price
+from api import get_price
 
 def test_get_price():
     cocacola_price = get_price('KO').json
